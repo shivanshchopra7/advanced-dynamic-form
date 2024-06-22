@@ -1,0 +1,134 @@
+/* Base styles for body */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+  }
+  
+  /* Container styles */
+  .container {
+    max-width: 400px;
+    margin: 20px;
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+  }
+  
+  /* Heading styles */
+  h1, h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Form styles */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Form group styles */
+  div.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    gap: 10px;
+  }
+  
+  /* Label styles */
+  label {
+    font-weight: bold;
+    color: #555;
+    padding: 10px 10px;
+  }
+  
+  /* Input, select, textarea styles */
+  input, select, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  /* Focus styles */
+  input:focus, select:focus, textarea:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  /* Error message styles */
+  p.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  /* Button styles */
+  button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: auto;
+    align-self: center;
+    margin-top: 10px;
+  }
+  
+  /* Button hover styles */
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Summary styles */
+  .summary {
+    text-align: left;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  
+  /* Checkbox group styles */
+  .checkbox-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Checkbox label styles */
+  .checkbox-group label {
+    font-weight: normal;
+  }
+  
+  /* Date time picker styles */
+  .date-time-picker {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* React tel input styles */
+  .react-tel-input .form-control {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  /* Flag dropdown styles */
+  .react-tel-input .flag-dropdown {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Selected flag styles */
+  .react-tel-input .selected-flag {
+    margin-right: 5px;
+  }
+  
